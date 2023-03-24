@@ -32,16 +32,19 @@ body {
 
 .home {
     background-color: black;
-    height: 100px;
+    height: 90px;
+    transition-duration: 0ms;
 }
 
 .home:hover {
     background-color: grey;
+    transition-duration: 0ms;
 }
 
 a:hover {
     background-color: black;
-    height: 100px;
+    height: 90px;
+    transition-duration: 0ms;
 }
 
 #navbar i {
@@ -89,7 +92,8 @@ a:hover {
     position: absolute;
     margin-left: 18%;
     width:992px;
-    height:1350px;
+    height:1355px;
+    object-fit: contain;
 }
 
 /* İçerik Bölümü 2 */
@@ -192,6 +196,11 @@ a:hover {
     width: 180px;
     height: 40px;
 
+}
+
+.button:hover {
+    background-color: black;
+    color: azure;
 }
 
 .uh2 {
@@ -407,7 +416,7 @@ a:hover {
 
 }
 
-@media screen and (min-width:300px) and (max-width:600px) {
+@media screen and (min-width:390px) and (max-width:600px) {
 /* Navbar Bölümü */
 #navbar {
     display: none;
@@ -419,6 +428,7 @@ a:hover {
     text-align: center;
     margin-top: -20px;
     width: 100%;
+    margin-right: 2%;
     min-height: 20px;
     font-size: 10px;
     background-color: black;
@@ -426,7 +436,7 @@ a:hover {
 
 .yazi {
     color: grey;
-    margin-left: 10%;
+    margin-left: 9%;
     float: left;
     text-decoration: none;
     list-style-type: none;
@@ -439,7 +449,7 @@ a:hover {
 }
 
 /* İçerik Bölümü 1 */
-.h1 {
+.sh1 {
     display: none;
 }
 
@@ -447,7 +457,7 @@ a:hover {
     color: white;
     font-size: 400%;
     font-weight: lighter;
-    margin-left: 32%;
+    margin-left: 30%;
     margin-top: -15px;
     position: absolute;
 }
@@ -456,7 +466,7 @@ a:hover {
     position: relative;
     color: white;
     top: 200px;
-    margin-left: 18%;
+    margin-left: 16%;
     margin-right: 8%;
     display: inline;
 }
@@ -466,7 +476,7 @@ a:hover {
     position: absolute;
     width: 40%;
     height: 40%;
-    margin-left: 30%;
+    margin-left: 28%;
     object-fit: cover;
 }
 
@@ -474,7 +484,7 @@ a:hover {
 .bilgi {
     padding-top: 170%;
     color: azure;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     font-weight: lighter;
 }
@@ -495,14 +505,14 @@ a:hover {
 .yetenek {
     padding-top: 2%;
     color: azure;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 7%;
 }
 
 .ybilgi {
     padding-top: 2%;
     color: grey;
-    margin-right: 5%;
+    margin-right: 3%;
     letter-spacing: 5px;
     font-size: medium;
 }
@@ -534,7 +544,7 @@ a:hover {
 .basari {
     display: block;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 3%;
     padding: 30px 30px 20px 60px;
     background-color: azure;
 }
@@ -547,15 +557,21 @@ a:hover {
 
 .button {
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 3%;
     width: 180px;
     height: 40px;
+}
+
+.button:hover {
+    background-color: black;
+    color: azure;
 }
 
 .uh2 {
     color: azure;
     margin-top: 25px;
-    margin-left: 5%;
+    margin-left: 3%;
+    margin-right: 5%;
     font-weight: lighter;
 }
 
@@ -564,7 +580,7 @@ a:hover {
     background-color: azure;
     width: 90%;
     height: 52%;
-    margin-left: 5%;
+    margin-left: 3%;
     box-sizing: inherit;
 }
 
@@ -604,8 +620,8 @@ a:hover {
     background-color: azure;
     width: 90%;
     height: 50%;
-    margin-left: 5%;
-    margin-top: 130%;
+    margin-left: 3%;
+    margin-top: 120%;
     box-sizing: inherit;
 }
 
@@ -695,22 +711,26 @@ a:hover {
 }
 
 .pictures {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     width: 90%;
-    object-fit: cover;
+    height: 70%;
+    padding: 1%;
+    object-fit:contain;
 }
 
 .pictures2 {
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: 3%;
     width: 120%;
+    padding: 1%;
     object-fit: cover;
 }
 
 /* İletişim Menüsü */
 .contact {
     margin-left: 1%;
+    margin-right: 1%;
     margin-top: 10%;
     text-align: center;
 }
@@ -732,19 +752,19 @@ a:hover {
 .iletisim1p {
     color: grey;
     margin-top: 5%;
-    margin-left: 1%;
+    margin-left: -3%;
     font-size: 15px;
     text-align: center;
 }
 
 .giris {
-    margin-left: 5%;
+    margin-left: 3%;
     width: 90%;
     height: 50px;
 }
 
 .formbutton {
-    margin-left: 5%;
+    margin-left: 3%;
     width: 150px;
     height: 50px;
 }
@@ -757,7 +777,7 @@ a:hover {
 /* Footer Kısmı */
 
 .footer {
-    margin-left: 37%;
+    margin-left: 33%;
     margin-top: 15%;
     color: grey;
     margin-bottom: 15%;
@@ -770,7 +790,7 @@ a:hover {
 
 .w3 {
     color: grey;
-    margin-left: -19px;
+    margin-left: -21px;
     padding: 7px;
     
     

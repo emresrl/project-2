@@ -8,8 +8,6 @@
 ![Proje Görseli](/screenshots/d5.png)
 ![Proje Görseli](/screenshots/d6.png)
 ![Proje Görseli](/screenshots/d7.png)
-![Proje Görseli](/screenshots/d8.png)
-![Proje Görseli](/screenshots/d9.png)
 
 ### Mobil Uyumlu Ekran
 ![Proje Görseli](/screenshots/r1.png)
